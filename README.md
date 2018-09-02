@@ -11,8 +11,7 @@ Run `npm install or yarn install`
 
 Run `npm run json-server` for Sign in functionality, this will run the server at `http://localhost:3000/` and sign in api at `http://localhost:3000/sign-in` , this API will help in authenticating the user and will be consumed by angular app for login, default credentials for login 
 
-username : todo
-password : todo
+`username : todo` and `password : todo`
 
 ## Development server
 
