@@ -1,0 +1,16 @@
+<header class="header">
+    <div class="main-header">
+        <span class="logo">Todo App</span>
+        <div class="header-right">
+        <button (click)="doSignOut()">Sign out</button>
+        </div>
+      </div>
+
+  <input
+    class="new-todo"
+    placeholder="What needs to be done?"
+    autofocus
+    [(ngModel)]="newTodo.title"
+    (keyup.enter)="addTodo()"
+  >
+</header>
