@@ -38,3 +38,10 @@
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
   }
   
+  .add-todo {
+    position: absolute;
+    top: 98px;
+    width: 62px;
+    right: 3px;
+    font-weight: bold;
+  }

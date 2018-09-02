@@ -20,8 +20,10 @@ export class TodoListHeaderComponent {
   }
 
   addTodo() {
-    this.add.emit(this.newTodo);
-    this.newTodo = new Todo();
+    if (this.newTodo.title.trim()) {
+      this.add.emit(this.newTodo);
+      this.newTodo = new Todo();
+    }
   }
 
   public doSignOut() {
